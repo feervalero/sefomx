@@ -33,9 +33,3 @@ const SiteSectionPruebasPsi = () => {
 };
 
 export default SiteSectionPruebasPsi;
-
-const styles = {
-  bold: {
-    textWeight: "500"
-  }
-};

@@ -1,40 +1,40 @@
 import React from "react";
 export default function Menu() {
   return (
-    <div class="container">
-      <div class="menu-wrap d-flex align-items-center">
+    <div className="container">
+      <div className="menu-wrap d-flex align-items-center">
         <nav
-          class="site-navigation text-left mr-auto  d-lg-block"
+          className="site-navigation text-left mr-auto  d-lg-block"
           role="navigation"
         >
-          <ul class="site-menu main-menu ">
+          <ul className="site-menu main-menu ">
             <li>
-              <a href="#home" className="nav-link">
+              <a href="/" className="nav-link">
                 Home
               </a>
             </li>
             <li>
-              <a href="#servicios" className="nav-link">
+              <a href="/" className="nav-link">
                 Servicios
               </a>
             </li>
 
             <li>
-              <a href="#contactanos" className="nav-link">
+              <a href="/" className="nav-link">
                 Contacto
               </a>
             </li>
           </ul>
         </nav>
-        <div class="top-social ml-auto">
+        <div className="top-social ml-auto">
           <a href="#">
-            <span class="icon-facebook"></span>
+            <span className="icon-facebook"></span>
           </a>
           <a href="#">
-            <span class="icon-twitter"></span>
+            <span className="icon-twitter"></span>
           </a>
           <a href="#">
-            <span class="icon-linkedin"></span>
+            <span className="icon-linkedin"></span>
           </a>
         </div>
       </div>

@@ -29,9 +29,3 @@ const Beneficios = () => {
 };
 
 export default Beneficios;
-
-const styles = {
-  bold: {
-    textWeight: "500"
-  }
-};

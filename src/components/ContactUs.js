@@ -13,9 +13,10 @@ class ContactUs extends React.Component {
   messageUpdate = event => {
     this.setState({ message: event.target.value });
   };
-  
+
   EnviaMail = event => {
     window.Email.send({
+      SecureToken:"958a3471-cfe5-439b-a2ec-743f08dc7599",
       Host: "smtp.gmail.com",
       Username: "fer.dev.valero@gmail.com",
       Password: "Ias343073",
@@ -23,7 +24,7 @@ class ContactUs extends React.Component {
       From: "fer.dev.valero@gmail.com",
       Subject: `This is a message from - ${this.state.name}`,
       Body: `From:${this.state.name} ${this.state.lastName}\nEmail:${this.state.email}\nMessage:${this.state.message}`
-    }).then(message => alert(message));
+    }).then(message => console.log(message));
   };
   render() {
     return (
@@ -80,7 +81,7 @@ class ContactUs extends React.Component {
                         name=""
                         id=""
                         className="form-control"
-                        placeholder="Escribe tu mensaje."
+                        placeholder="Escribe tu mensaje"
                         cols="30"
                         rows="10"
                         onChange={this.messageUpdate}

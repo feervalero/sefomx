@@ -17,7 +17,7 @@ export default class Header extends React.Component {
                     <div className="container mb-3">
                         <div className="d-flex align-items-center">
                             <div className="site-logo mr-auto">
-                            <a href="index.html">Sefo<span className="text-primary">.</span></a>
+                            <a href="index.html">SEF<span className="text-primary">.</span></a>
                             </div>
                             <div className="site-quick-contact d-none d-lg-flex ml-auto ">
                             <div className="d-flex site-info align-items-center mr-5">
@@ -26,7 +26,7 @@ export default class Header extends React.Component {
                             </div>
                             <div className="d-flex site-info align-items-center">
                                 <span className="block-icon mr-3"><span className="icon-clock-o"></span></span>
-                                <span>Lunes - Viernes 8:00AM - 4:00PM <br />Sabado - Domingo Cerrado</span>
+                                <span>Lunes - Viernes 9:00AM - 6:00PM <br />Sabado - Domingo Cerrado</span>
                             </div>
                             </div>
                         </div>

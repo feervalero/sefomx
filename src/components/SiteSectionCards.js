@@ -2,9 +2,9 @@ import React from "react";
 
 const SiteSectionCards = props => {
   return (
-    <div className="site-section">
+    <div className="site-section" id="QuienesSomos">
       <div className="container">
-        <div className="row justify-content-center text-center">
+        <div className="row justify-content-center text-center" >
           <div className="col-md-7 mb-5">
             <h2>A creative digital agency with excellence services</h2>
           </div>

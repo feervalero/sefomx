@@ -10,9 +10,9 @@ const SiteSectionCover = () => {
       >
         <div className="container">
           <div className="row align-items-center ">
-            <div className="col-md-5 mt-5 pt-5">
+            <div className="col-md-6 mt-3 pt-3">
               <h1 className="mb-3">
-                Empowering business and the people who drive it
+              Creando oportunidades, creando experiencias.
               </h1>
               <p>
                 Proporcionamos servicios de alto valor añadido que contribuyen a
@@ -26,7 +26,7 @@ const SiteSectionCover = () => {
             </div>
             <div className="col-md-6 ml-auto">
               <div className="white-dots">
-                <img src="images/img_2.jpg" alt="" className="img-fluid" />
+              
               </div>
             </div>
           </div>

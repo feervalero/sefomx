@@ -48,8 +48,20 @@ const Footer = props => {
                 <a href="https://colorlib.com">
                   Colorlib
                 </a>
+                </p>
                 {/*<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->*/}
-              </p>
+                <div className="top-social ml-auto">
+                <a href="#">
+                  <span className="icon-facebook"></span>
+                </a>
+                <a href="#">
+                  <span className="icon-twitter"></span>
+                </a>
+                <a href="#">
+                  <span className="icon-linkedin"></span>
+                </a>
+              </div>
+              
             </div>
           </div>
         </div>

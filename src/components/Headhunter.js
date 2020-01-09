@@ -2,9 +2,9 @@ import React from "react";
 
 const Headhunter = () => {
   return (
-    <div className="site-section bg-light">
+    <div className="site-section bg-light" id="HeadHunter">
       <div className="container">
-        <div className="row justify-content-center text-center">
+        <div className="row justify-content-center text-center" >
           <div className="col-10 text-justify">
             <h2 className="section-heading text-center">Headhunter</h2>
             <p>
@@ -15,7 +15,7 @@ const Headhunter = () => {
               finalidad de mejorar la calidad y eficiencia de las empresas.
             </p>
             <p>
-              Descripción: Análisis, exploración, detalle y rastreo de la
+              Análisis, exploración, detalle y rastreo de la
               información más relevante acerca de creencias, forma de trabajo,
               valores, fortalezas, áreas de oportunidad y motivaciones de los
               sujetos, así como sus experiencias significativas en el contexto

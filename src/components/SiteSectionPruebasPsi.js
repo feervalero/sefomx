@@ -2,7 +2,7 @@ import React from "react";
 
 const SiteSectionPruebasPsi = () => {
   return (
-    <div className="site-section bg-light">
+    <div className="site-section bg-light" id="PruebasPsicometricas">
       <div className="container">
         <div className="row justify-content-center text-center">
           <div className="col-10 text-justify">

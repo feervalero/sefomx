@@ -2,7 +2,7 @@ import React from "react";
 const Quality = () => {
   return (
     <div
-      className="site-section section-3"
+      className="site-section section-3" id="ConfianzaEtica"
       data-stellar-background-ratio="0.5"
       style={{ backgroundImage: 'url("images/hero_1.jpg")' }}
     >
@@ -18,11 +18,9 @@ const Quality = () => {
               el mercado, que te ayudará a detectar probables fraduses actuales
               o próximos ingresos en tu organización.
             </p>
-            <h3 className="text-white">Tipos:</h3>
             <ul>
               <p>Evaluaciones pre empleo</p>
               <p>Evaluaciones post contratación</p>
-              <p>Evaluaciones Desarrollo Organizacional</p>
             </ul>
           </div>
         </div>

@@ -3,7 +3,7 @@ const CulturaOrg = () => {
   return (
     <div
       className="site-section section-3"
-      data-stellar-background-ratio="0.5"
+      data-stellar-background-ratio="0.5" id="CulturaOrganizacional"
       style={{ backgroundImage: 'url("images/hero_3.jpg")' }}
     >
       <div className="container">

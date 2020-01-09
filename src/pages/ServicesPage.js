@@ -1,16 +1,30 @@
-import React from 'react';
-import SiteSectionBanner2 from '../components/SiteSectionBanner2';
+import React from "react";
+import Headhunter from "../components/Headhunter";
+import SiteSectionPruebasPsi from "../components/SiteSectionPruebasPsi";
+import Quality from "../components/Quality";
+import CulturaOrg from "../components/CulturaOrg";
+import Beneficios from "../components/Beneficios";
+import SiteSectionBanner from "../components/SiteSectionBanner";
+import BienestarIntegral from "../components/BienestarIntegral";
 
 class ServicesPage extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {  }
-    }
-    render() { 
-        return (
-            <SiteSectionBanner2 />   
-        );
-    }
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+  render() {
+    return (
+      <>
+        <SiteSectionBanner />
+        <Headhunter />
+        <Quality />
+        <SiteSectionPruebasPsi />
+        <CulturaOrg />
+        <Beneficios />
+        <BienestarIntegral />
+      </>
+    );
+  }
 }
- 
+
 export default ServicesPage;

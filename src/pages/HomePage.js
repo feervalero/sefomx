@@ -3,11 +3,7 @@ import SiteSectionCover from "../components/SiteSectionCover";
 import SiteSectionGrid from "../components/SiteSectionGrid";
 import SiteSectionCounter from "../components/SiteSectionCounter";
 import SiteSectionCards from "../components/SiteSectionCards";
-import Headhunter from "../components/Headhunter";
-import SiteSectionPruebasPsi from "../components/SiteSectionPruebasPsi";
-import Quality from "../components/Quality";
-import CulturaOrg from '../components/CulturaOrg';
-import Beneficios from "../components/Beneficios";
+
 import ContactUs from "../components/ContactUs";
 import ReactGA from "react-ga";
 
@@ -27,11 +23,7 @@ class HomePage extends React.Component {
         <SiteSectionCounter />
         
         <SiteSectionGrid /> {/* Seccion de bullets de servicios */}
-        <Headhunter />
-        <Quality />
-        <SiteSectionPruebasPsi />
-        <CulturaOrg />
-        <Beneficios />
+        
         <ContactUs />
       </>
     );

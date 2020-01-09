@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 export default function Menu() {
   return (
     <div className="container">
@@ -14,29 +15,32 @@ export default function Menu() {
               </a>
             </li>
             <li>
-              <a href="/" className="nav-link">
+              <Link to="/servicios" className="nav-link">
                 Servicios
+              </Link>
+            </li>
+            <li>
+              <a href="/#QuienesSomos" className="nav-link">
+                Quienes somos
               </a>
             </li>
-
             <li>
-              <a href="/" className="nav-link">
-                Contacto
+              <a href="/servicios#HeadHunter" className="nav-link">
+                Headhunter
+              </a>
+            </li>
+            <li>
+              <a href="/servicios#CulturaOrganizacional" className="nav-link">
+                Cultura Organizacional
+              </a>
+            </li>
+            <li>
+              <a href="/servicios#BienestarIntegral" className="nav-link">
+                Evaluaciones de Bienestar Integral
               </a>
             </li>
           </ul>
         </nav>
-        <div className="top-social ml-auto">
-          <a href="#">
-            <span className="icon-facebook"></span>
-          </a>
-          <a href="#">
-            <span className="icon-twitter"></span>
-          </a>
-          <a href="#">
-            <span className="icon-linkedin"></span>
-          </a>
-        </div>
       </div>
     </div>
   );

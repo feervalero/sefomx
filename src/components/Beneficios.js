@@ -2,10 +2,10 @@ import React from "react";
 
 const Beneficios = () => {
   return (
-    <div className="site-section bg-light">
+    <div className="site-section bg-dark">
       <div className="container">
         <div className="row justify-content-center text-center">
-          <div className="col-10 text-justify">
+          <div className="col-10 text-justify" style={{color:"white"}}>
             <h2 className="section-heading text-center">Beneficios</h2>
             <p> Contribuimos a la disminución de costos </p>
             <p>

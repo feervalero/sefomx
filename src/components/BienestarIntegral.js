@@ -12,7 +12,7 @@ const BienestarIntegral = () => {
         <div className="row justify-content-center text-center">
           <div className="col-10 text-justify">
             <h2 className="text-white section-heading primary-color-icon text-center">
-              Bienestar Integral
+            Modelo 360 de Bienestar Integral
             </h2>
             <p>-Psicología (Atención al personal, Salud Mental)</p>
             <p>-Valoración y medición de (Estrés y Ansiedad)</p>

@@ -26,7 +26,7 @@ export default class Header extends React.Component {
                             </div>
                             <div className="d-flex site-info align-items-center">
                                 <span className="block-icon mr-3"><span className="icon-clock-o"></span></span>
-                                <span>Lunes - Viernes 9:00AM - 6:00PM <br />Sabado - Domingo Cerrado</span>
+                                <span>Lunes - Viernes 9:00AM - 6:00PM <br /></span>
                             </div>
                             </div>
                         </div>

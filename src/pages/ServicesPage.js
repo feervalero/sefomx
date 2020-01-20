@@ -3,7 +3,6 @@ import Headhunter from "../components/Headhunter";
 import SiteSectionPruebasPsi from "../components/SiteSectionPruebasPsi";
 import Quality from "../components/Quality";
 import CulturaOrg from "../components/CulturaOrg";
-import Beneficios from "../components/Beneficios";
 import SiteSectionBanner from "../components/SiteSectionBanner";
 import BienestarIntegral from "../components/BienestarIntegral";
 
@@ -20,7 +19,6 @@ class ServicesPage extends React.Component {
         <Quality />
         <SiteSectionPruebasPsi />
         <CulturaOrg />
-        <Beneficios />
         <BienestarIntegral />
       </>
     );

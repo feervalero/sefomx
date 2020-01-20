@@ -19,7 +19,7 @@ class ContactUs extends React.Component {
       SecureToken:"958a3471-cfe5-439b-a2ec-743f08dc7599",
       Host: "smtp.gmail.com",
       Username: "fer.dev.valero@gmail.com",
-      Password: "Ias343073",
+      Password: "****",
       To: "fer.dev.valero@gmail.com",
       From: "fer.dev.valero@gmail.com",
       Subject: `This is a message from - ${this.state.name}`,
